@@ -24,23 +24,46 @@ body {
 }
 
 h1 {
-  position: fixed;
-  top: 340px;
-  left: 15px;
   padding: 0;
-  font-size: 5em;
-  /* line-height: 0.7em; */
-  letter-spacing: -6px;
+  font-size: 90px;
   color: #272730;
   margin: 0px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+h1:hover {
+  text-decoration: line-through;
 }
 
 .picker {
-  position: fixed !important;
-  top: 200px;
-  left: 30px;
-  width: 150px !important;
-  height: 150px !important;
+  width: 180px !important;
+  height: 180px !important;
+  margin-left: 15px;
+}
+
+.mint {
+  background-color: #272730;
+  color: #fff;
+  font-size: 70px;
+}
+
+.mint:hover {
+  font-size: 80px;
+}
+
+.customize {
+  text-decoration: line-through;
+  cursor: pointer;
+  font-size: 90px;
+}
+
+.customize:hover {
+  text-decoration: none;
+}
+
+.cryptosneaker:hover {
+  text-decoration: line-through;
 }
 
 * {

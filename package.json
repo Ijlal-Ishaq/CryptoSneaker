@@ -5,14 +5,19 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
     "drei": "2.2.12",
+    "ipfs-http-client": "^56.0.1",
     "react": "17.0.1",
     "react-colorful": "4.4.4",
     "react-dom": "17.0.1",
     "react-scripts": "4.0.1",
     "react-three-fiber": "5.3.10",
     "three": "0.123.0",
-    "valtio": "0.4.8"
+    "valtio": "0.4.8",
+    "web3": "^1.7.5",
+    "web3-core": "^1.7.5"
   },
   "devDependencies": {
     "typescript": "4.1.3"
